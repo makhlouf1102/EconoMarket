@@ -29,11 +29,27 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sort-controls {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sort-controls label {
+    font-weight: 600;
+    color: #2c3e50;
 }
 
 .filters label {
@@ -44,7 +60,8 @@ main {
 }
 
 .filters input[type="text"],
-.filters select {
+.filters select,
+.sort-controls select {
     width: 100%;
     padding: 0.8rem;
     border: 2px solid #e0e0e0;
@@ -54,7 +71,8 @@ main {
 }
 
 .filters input[type="text"]:focus,
-.filters select:focus {
+.filters select:focus,
+.sort-controls select:focus {
     outline: none;
     border-color: #2ecc71;
 }
@@ -153,6 +171,27 @@ main {
     align-self: center;
 }
 
+.reset-filter {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.reset-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+    background-color: #c0392b;
+}
+
 @media (max-width: 768px) {
     .product-item {
         flex-direction: column;
@@ -173,6 +212,11 @@ main {
     .filters {
         grid-template-columns: 1fr;
     }
+
+    .sort-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
 
 @media (max-width: 480px) {
@@ -186,5 +230,14 @@ main {
 
     .filters {
         padding: 1rem;
+        gap: 1rem;
+    }
+
+    .price-inputs {
+        flex-direction: column;
+    }
+
+    .price-inputs span {
+        display: none;
     }
 }

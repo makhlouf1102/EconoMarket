@@ -119,6 +119,27 @@ function displayProducts(productArray) {
     });
 }
 
+function sortProducts(products, sortBy) {
+    return [...products].sort((a, b) => {
+        switch(sortBy) {
+            case 'price_asc':
+                return (parseFloat(a.price_text) || 0) - (parseFloat(b.price_text) || 0);
+            case 'price_desc':
+                return (parseFloat(b.price_text) || 0) - (parseFloat(a.price_text) || 0);
+            case 'name_asc':
+                return a.name.localeCompare(b.name);
+            case 'name_desc':
+                return b.name.localeCompare(a.name);
+            case 'valid_asc':
+                return new Date(a.valid_from) - new Date(b.valid_from);
+            case 'valid_desc':
+                return new Date(b.valid_from) - new Date(a.valid_from);
+            default:
+                return 0;
+        }
+    });
+}
+
 window.applyFilters = async function applyFilters() {
     try {
         if (!apiData.dataLoaded) {
@@ -132,6 +153,7 @@ window.applyFilters = async function applyFilters() {
         const nameValue = document.getElementById('nameFilter').value.trim().toLowerCase();
         const categoryValue = document.getElementById('categoryFilter').value;
         const brandValue = document.getElementById('brandFilter').value;
+        const sortBy = document.getElementById('sortSelect').value;
 
         filtered = filtered.filter(product => {
             // Name filter
@@ -149,6 +171,11 @@ window.applyFilters = async function applyFilters() {
 
             return true;
         });
+
+        // Apply sorting
+        if (sortBy !== 'default') {
+            filtered = sortProducts(filtered, sortBy);
+        }
 
         displayProducts(filtered);
 

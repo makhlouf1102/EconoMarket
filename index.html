@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,48 +12,83 @@
     </header>
 
     <main>
-        <!-- Filter Section -->
+        <!-- Section Filtres -->
         <div class="filters">
-            <!-- Name Filter -->
+            <!-- Filtre par nom -->
             <div>
-                <label for="nameFilter">Search by Name</label>
+                <label for="nameFilter">Rechercher par nom</label>
                 <input type="text" id="nameFilter" onkeyup="applyFilters()" 
-                       placeholder="Enter product name...">
+                       placeholder="Entrez le nom du produit...">
             </div>
 
-            <!-- Category Filter -->
+            <!-- Filtre par catégorie -->
             <div>
-                <label for="categoryFilter">Categories</label>
+                <label for="categoryFilter">Catégories</label>
                 <select id="categoryFilter" onchange="applyFilters()">
-                    <option value="">All Categories</option>
+                    <option value="">Toutes les catégories</option>
                 </select>
             </div>
 
-            <!-- Price Filter -->
+            <!-- Filtre par prix -->
             <div class="price-filter">
-                <label>Price Range</label>
+                <label>Fourchette de prix</label>
                 <div class="price-inputs">
                     <input type="number" id="minPriceInput" 
-                           placeholder="Min" min="0" step="0.01">
-                    <span>-</span>
+                           placeholder="Minimum" min="0" step="0.01">
+                    <span>à</span>
                     <input type="number" id="maxPriceInput" 
-                           placeholder="Max" min="0" step="0.01">
+                           placeholder="Maximum" min="0" step="0.01">
                 </div>
             </div>
 
-            <!-- Brand Filter -->
-            <div style="display: none;">
-                <label for="brandFilter">Brand</label>
+            <!-- Filtre par marque -->
+            <div>
+                <label for="brandFilter">Marque</label>
                 <select id="brandFilter" onchange="applyFilters()">
-                    <option value="">All Brands</option>
+                    <option value="">Toutes les marques</option>
                 </select>
+            </div>
+
+            <!-- Bouton de réinitialisation -->
+            <div class="reset-filter">
+                <button onclick="resetFilters()" class="reset-button">
+                    Réinitialiser les filtres
+                </button>
             </div>
         </div>
 
-        <!-- Products List -->
+        <!-- Contrôles de tri -->
+        <div class="sort-controls">
+            <label for="sortSelect">Trier par :</label>
+            <select id="sortSelect" onchange="applyFilters()">
+                <option value="default">Par défaut</option>
+                <option value="price_asc">Prix : Croissant</option>
+                <option value="price_desc">Prix : Décroissant</option>
+                <option value="name_asc">Nom : A-Z</option>
+                <option value="name_desc">Nom : Z-A</option>
+                <option value="valid_asc">Date de validité : Plus ancienne</option>
+                <option value="valid_desc">Date de validité : Plus récente</option>
+            </select>
+        </div>
+
+        <!-- Liste des produits -->
         <ul id="productList" class="product-list"></ul>
     </main>
 
     <script type="module" src="index.js"></script>
+    <script>
+        function resetFilters() {
+            // Réinitialiser les champs de formulaire
+            document.getElementById('nameFilter').value = '';
+            document.getElementById('categoryFilter').selectedIndex = 0;
+            document.getElementById('brandFilter').selectedIndex = 0;
+            document.getElementById('minPriceInput').value = '';
+            document.getElementById('maxPriceInput').value = '';
+            document.getElementById('sortSelect').selectedIndex = 0;
+            
+            // Réappliquer les filtres
+            applyFilters();
+        }
+    </script>
 </body>
 </html>
