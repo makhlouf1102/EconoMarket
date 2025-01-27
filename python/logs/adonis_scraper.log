@@ -1,0 +1,1433 @@
+2025-01-27 00:28:32,527 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 00:28:32,527 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 00:28:34,758 - adonis_scraper - INFO - HTML Content received: <!DOCTYPE html>
+<html lang="en" style="height:100%;">
+ <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+ <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no" name="viewport"/>
+ <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+ <meta content="no-cache" http-equiv="Pragma"/>
+ <meta content="0" http-equiv="Expires"/>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width,initial-scale=0.86,user-scalable=no" name="viewport"/>
+  <link href="" id="icon" rel="icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+  <title>
+  </title>
+  <link as="style" href="/css/app.2360c3dd.css" rel="preload"/>
+  <link as="script" href="/js/app.61f0abf6.js" rel="preload"/>
+  <link as="script" href="/js/chunk-vendors.632f5db4.js" rel="preload"/>
+  <link href="/css/app.2360c3dd.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <noscript>
+   <stro
+2025-01-27 00:28:34,758 - adonis_scraper - INFO - HTML Content received: <!DOCTYPE html>
+<html lang="en" style="height:100%;">
+ <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+ <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no" name="viewport"/>
+ <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+ <meta content="no-cache" http-equiv="Pragma"/>
+ <meta content="0" http-equiv="Expires"/>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width,initial-scale=0.86,user-scalable=no" name="viewport"/>
+  <link href="" id="icon" rel="icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+  <title>
+  </title>
+  <link as="style" href="/css/app.2360c3dd.css" rel="preload"/>
+  <link as="script" href="/js/app.61f0abf6.js" rel="preload"/>
+  <link as="script" href="/js/chunk-vendors.632f5db4.js" rel="preload"/>
+  <link href="/css/app.2360c3dd.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <noscript>
+   <stro
+2025-01-27 00:28:34,759 - adonis_scraper - ERROR - Could not find store selection dropdown
+2025-01-27 00:28:34,759 - adonis_scraper - ERROR - Could not find store selection dropdown
+2025-01-27 00:29:09,907 - adonis_scraper - INFO - Tentative d'accès au flyer: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 00:29:09,907 - adonis_scraper - INFO - Tentative d'accès au flyer: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 00:29:12,153 - adonis_scraper - INFO - Contenu HTML reçu: <!DOCTYPE html>
+<html lang="en" style="height:100%;">
+ <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+ <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no" name="viewport"/>
+ <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+ <meta content="no-cache" http-equiv="Pragma"/>
+ <meta content="0" http-equiv="Expires"/>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=d...
+2025-01-27 00:29:12,153 - adonis_scraper - INFO - Contenu HTML reçu: <!DOCTYPE html>
+<html lang="en" style="height:100%;">
+ <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+ <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no" name="viewport"/>
+ <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+ <meta content="no-cache" http-equiv="Pragma"/>
+ <meta content="0" http-equiv="Expires"/>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=d...
+2025-01-27 00:29:12,155 - adonis_scraper - INFO - Sections trouvées: 0
+2025-01-27 00:29:12,155 - adonis_scraper - INFO - Sections trouvées: 0
+2025-01-27 00:33:02,429 - adonis_scraper - INFO - Calling API: https://metrodigital-apim.azure-api.net/api/offers/79768/21937/en/getOffers
+2025-01-27 00:33:02,429 - adonis_scraper - INFO - Calling API: https://metrodigital-apim.azure-api.net/api/offers/79768/21937/en/getOffers
+2025-01-27 00:33:02,587 - adonis_scraper - INFO - API Response Status: 404
+2025-01-27 00:33:02,587 - adonis_scraper - INFO - API Response Status: 404
+2025-01-27 00:33:02,587 - adonis_scraper - INFO - API Response Headers: {'Content-Length': '54', 'Content-Type': 'application/json', 'Date': 'Mon, 27 Jan 2025 05:33:02 GMT', 'Cache-Control': 'private', 'Request-Context': 'appId=cid-v1:a7a2aa0d-bed8-4113-bfd3-3f18e91a181a'}
+2025-01-27 00:33:02,587 - adonis_scraper - INFO - API Response Headers: {'Content-Length': '54', 'Content-Type': 'application/json', 'Date': 'Mon, 27 Jan 2025 05:33:02 GMT', 'Cache-Control': 'private', 'Request-Context': 'appId=cid-v1:a7a2aa0d-bed8-4113-bfd3-3f18e91a181a'}
+2025-01-27 00:33:02,587 - adonis_scraper - INFO - API Response Content: { "statusCode": 404, "message": "Resource not found" }
+2025-01-27 00:33:02,587 - adonis_scraper - INFO - API Response Content: { "statusCode": 404, "message": "Resource not found" }
+2025-01-27 00:34:27,006 - adonis_scraper - INFO - Calling API: https://metrodigital-apim.azure-api.net/api/offers/79768/21937/en/getOffers
+2025-01-27 00:34:27,006 - adonis_scraper - INFO - Calling API: https://metrodigital-apim.azure-api.net/api/offers/79768/21937/en/getOffers
+2025-01-27 00:34:27,245 - adonis_scraper - INFO - API Response Status: 404
+2025-01-27 00:34:27,245 - adonis_scraper - INFO - API Response Status: 404
+2025-01-27 00:34:27,246 - adonis_scraper - INFO - API Response Headers: {'Content-Length': '54', 'Content-Type': 'application/json', 'Date': 'Mon, 27 Jan 2025 05:34:26 GMT', 'Cache-Control': 'private', 'Request-Context': 'appId=cid-v1:a7a2aa0d-bed8-4113-bfd3-3f18e91a181a'}
+2025-01-27 00:34:27,246 - adonis_scraper - INFO - API Response Headers: {'Content-Length': '54', 'Content-Type': 'application/json', 'Date': 'Mon, 27 Jan 2025 05:34:26 GMT', 'Cache-Control': 'private', 'Request-Context': 'appId=cid-v1:a7a2aa0d-bed8-4113-bfd3-3f18e91a181a'}
+2025-01-27 00:34:27,246 - adonis_scraper - INFO - API Response Content: { "statusCode": 404, "message": "Resource not found" }
+2025-01-27 00:34:27,246 - adonis_scraper - INFO - API Response Content: { "statusCode": 404, "message": "Resource not found" }
+2025-01-27 01:05:01,689 - adonis_scraper - ERROR - Failed to initialize Chrome WebDriver: [Errno 8] Exec format error: '/Users/salah/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-01-27 01:05:43,165 - adonis_scraper - ERROR - Failed to initialize Chrome WebDriver: ChromeDriverManager.__init__() got an unexpected keyword argument 'os_type'
+2025-01-27 01:06:08,739 - adonis_scraper - ERROR - Failed to initialize Chrome WebDriver: [Errno 8] Exec format error: '/Users/salah/.wdm/drivers/chromedriver/mac64/132.0.6834.110/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-01-27 01:07:14,216 - adonis_scraper - ERROR - Failed to initialize Chrome WebDriver: Message: Can not connect to the Service /opt/homebrew/bin/chromedriver
+
+2025-01-27 01:07:37,180 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:07:37,918 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:07:37,918 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:08:10,805 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:08:11,221 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:08:11,221 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:08:11,298 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:08:11,298 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:08:25,222 - adonis_scraper - ERROR - Could not find or click PDF button: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010258e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000102586ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000102127f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010216d000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x00000001021a7148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000102160e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000102161a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001025596d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x000000010255c9f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x000000010254003c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x000000010255d2b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x0000000102531c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x0000000102577d60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x0000000102577edc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x0000000102586c6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:08:25,222 - adonis_scraper - ERROR - Could not find or click PDF button: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010258e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000102586ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000102127f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010216d000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x00000001021a7148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000102160e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000102161a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001025596d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x000000010255c9f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x000000010254003c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x000000010255d2b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x0000000102531c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x0000000102577d60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x0000000102577edc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x0000000102586c6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:04,664 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:09:05,121 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:09:05,121 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:09:05,197 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:09:05,197 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:09:10,686 - adonis_scraper - INFO - Page source:
+2025-01-27 01:09:10,686 - adonis_scraper - INFO - Page source:
+2025-01-27 01:09:10,709 - adonis_scraper - INFO - <html lang="en" style="height:100%;"><head><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-LZ7DSXZ46X&amp;l=dataLayer&amp;cx=c&amp;gtm=45He51n0v9144996815za200"></script><script src="https://cdn.rudderlabs.com/v3/modern/rsa.min.js" data-loader="RS_JS_SDK" data-rsa-write-key="2hCZ0yARYfnW0NL5zNAeuxdv18q" async=""></script><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=0.86,user-scalable=no"><link rel="icon" id="icon" href="/icons/favicon/adonis.ico"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"><title>79768</title><
+2025-01-27 01:09:10,709 - adonis_scraper - INFO - <html lang="en" style="height:100%;"><head><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-LZ7DSXZ46X&amp;l=dataLayer&amp;cx=c&amp;gtm=45He51n0v9144996815za200"></script><script src="https://cdn.rudderlabs.com/v3/modern/rsa.min.js" data-loader="RS_JS_SDK" data-rsa-write-key="2hCZ0yARYfnW0NL5zNAeuxdv18q" async=""></script><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=0.86,user-scalable=no"><link rel="icon" id="icon" href="/icons/favicon/adonis.ico"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"><title>79768</title><
+2025-01-27 01:09:10,709 - adonis_scraper - INFO - Trying selector: [aria-label="Download PDF"]
+2025-01-27 01:09:10,709 - adonis_scraper - INFO - Trying selector: [aria-label="Download PDF"]
+2025-01-27 01:09:20,973 - adonis_scraper - INFO - Selector [aria-label="Download PDF"] failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104425000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:20,973 - adonis_scraper - INFO - Selector [aria-label="Download PDF"] failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104425000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:20,974 - adonis_scraper - INFO - Trying selector: button[aria-label="Download PDF"]
+2025-01-27 01:09:20,974 - adonis_scraper - INFO - Trying selector: button[aria-label="Download PDF"]
+2025-01-27 01:09:31,381 - adonis_scraper - INFO - Selector button[aria-label="Download PDF"] failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104425000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:31,381 - adonis_scraper - INFO - Selector button[aria-label="Download PDF"] failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104425000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:31,382 - adonis_scraper - INFO - Trying selector: [title*="PDF"]
+2025-01-27 01:09:31,382 - adonis_scraper - INFO - Trying selector: [title*="PDF"]
+2025-01-27 01:09:41,603 - adonis_scraper - INFO - Selector [title*="PDF"] failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104425000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:41,603 - adonis_scraper - INFO - Selector [title*="PDF"] failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104425000 cxxbridge1$string$len + 371128
+4   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+5   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+6   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+7   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+8   chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+9   chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+10  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+11  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+12  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+13  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+14  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+15  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:41,605 - adonis_scraper - INFO - Trying selector: [class*="pdf"]
+2025-01-27 01:09:41,605 - adonis_scraper - INFO - Trying selector: [class*="pdf"]
+2025-01-27 01:09:41,617 - adonis_scraper - INFO - Found PDF button with selector: [class*="pdf"]
+2025-01-27 01:09:41,617 - adonis_scraper - INFO - Found PDF button with selector: [class*="pdf"]
+2025-01-27 01:09:41,643 - adonis_scraper - ERROR - Failed to click PDF button: Message: element not interactable
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dfd7c cxxbridge1$string$len + 87860
+3   chromedriver                        0x0000000104425f7c cxxbridge1$string$len + 375092
+4   chromedriver                        0x000000010441adec cxxbridge1$string$len + 329636
+5   chromedriver                        0x000000010441a890 cxxbridge1$string$len + 328264
+6   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+7   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+8   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+9   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+10  chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+11  chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+12  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+13  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+14  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+15  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+16  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+17  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:41,643 - adonis_scraper - ERROR - Failed to click PDF button: Message: element not interactable
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x00000001048467b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010483eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001043dfd7c cxxbridge1$string$len + 87860
+3   chromedriver                        0x0000000104425f7c cxxbridge1$string$len + 375092
+4   chromedriver                        0x000000010441adec cxxbridge1$string$len + 329636
+5   chromedriver                        0x000000010441a890 cxxbridge1$string$len + 328264
+6   chromedriver                        0x000000010445f148 cxxbridge1$string$len + 609024
+7   chromedriver                        0x0000000104418e1c cxxbridge1$string$len + 321492
+8   chromedriver                        0x0000000104419a64 cxxbridge1$string$len + 324636
+9   chromedriver                        0x00000001048116d4 cxxbridge1$str$ptr + 2381136
+10  chromedriver                        0x00000001048149f4 cxxbridge1$str$ptr + 2394224
+11  chromedriver                        0x00000001047f803c cxxbridge1$str$ptr + 2277048
+12  chromedriver                        0x00000001048152b4 cxxbridge1$str$ptr + 2396464
+13  chromedriver                        0x00000001047e9c04 cxxbridge1$str$ptr + 2218624
+14  chromedriver                        0x000000010482fd60 cxxbridge1$str$ptr + 2505692
+15  chromedriver                        0x000000010482fedc cxxbridge1$str$ptr + 2506072
+16  chromedriver                        0x000000010483ec6c cxxbridge1$str$ptr + 2566888
+17  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:09:41,672 - adonis_scraper - INFO - Clicked PDF button using JavaScript
+2025-01-27 01:09:41,672 - adonis_scraper - INFO - Clicked PDF button using JavaScript
+2025-01-27 01:09:42,677 - adonis_scraper - INFO - Waiting for PDF download... 1/30
+2025-01-27 01:09:42,677 - adonis_scraper - INFO - Waiting for PDF download... 1/30
+2025-01-27 01:09:43,681 - adonis_scraper - INFO - Waiting for PDF download... 2/30
+2025-01-27 01:09:43,681 - adonis_scraper - INFO - Waiting for PDF download... 2/30
+2025-01-27 01:09:44,683 - adonis_scraper - INFO - Waiting for PDF download... 3/30
+2025-01-27 01:09:44,683 - adonis_scraper - INFO - Waiting for PDF download... 3/30
+2025-01-27 01:09:45,688 - adonis_scraper - INFO - Waiting for PDF download... 4/30
+2025-01-27 01:09:45,688 - adonis_scraper - INFO - Waiting for PDF download... 4/30
+2025-01-27 01:09:46,693 - adonis_scraper - INFO - Waiting for PDF download... 5/30
+2025-01-27 01:09:46,693 - adonis_scraper - INFO - Waiting for PDF download... 5/30
+2025-01-27 01:09:47,699 - adonis_scraper - INFO - Waiting for PDF download... 6/30
+2025-01-27 01:09:47,699 - adonis_scraper - INFO - Waiting for PDF download... 6/30
+2025-01-27 01:09:48,705 - adonis_scraper - INFO - Waiting for PDF download... 7/30
+2025-01-27 01:09:48,705 - adonis_scraper - INFO - Waiting for PDF download... 7/30
+2025-01-27 01:09:49,707 - adonis_scraper - INFO - Waiting for PDF download... 8/30
+2025-01-27 01:09:49,707 - adonis_scraper - INFO - Waiting for PDF download... 8/30
+2025-01-27 01:09:50,713 - adonis_scraper - INFO - Waiting for PDF download... 9/30
+2025-01-27 01:09:50,713 - adonis_scraper - INFO - Waiting for PDF download... 9/30
+2025-01-27 01:09:51,715 - adonis_scraper - INFO - Waiting for PDF download... 10/30
+2025-01-27 01:09:51,715 - adonis_scraper - INFO - Waiting for PDF download... 10/30
+2025-01-27 01:09:52,721 - adonis_scraper - INFO - Waiting for PDF download... 11/30
+2025-01-27 01:09:52,721 - adonis_scraper - INFO - Waiting for PDF download... 11/30
+2025-01-27 01:09:53,727 - adonis_scraper - INFO - Waiting for PDF download... 12/30
+2025-01-27 01:09:53,727 - adonis_scraper - INFO - Waiting for PDF download... 12/30
+2025-01-27 01:09:54,734 - adonis_scraper - INFO - Waiting for PDF download... 13/30
+2025-01-27 01:09:54,734 - adonis_scraper - INFO - Waiting for PDF download... 13/30
+2025-01-27 01:09:55,738 - adonis_scraper - INFO - Waiting for PDF download... 14/30
+2025-01-27 01:09:55,738 - adonis_scraper - INFO - Waiting for PDF download... 14/30
+2025-01-27 01:09:56,742 - adonis_scraper - INFO - Waiting for PDF download... 15/30
+2025-01-27 01:09:56,742 - adonis_scraper - INFO - Waiting for PDF download... 15/30
+2025-01-27 01:09:57,743 - adonis_scraper - INFO - Waiting for PDF download... 16/30
+2025-01-27 01:09:57,743 - adonis_scraper - INFO - Waiting for PDF download... 16/30
+2025-01-27 01:09:58,748 - adonis_scraper - INFO - Waiting for PDF download... 17/30
+2025-01-27 01:09:58,748 - adonis_scraper - INFO - Waiting for PDF download... 17/30
+2025-01-27 01:09:59,750 - adonis_scraper - INFO - Waiting for PDF download... 18/30
+2025-01-27 01:09:59,750 - adonis_scraper - INFO - Waiting for PDF download... 18/30
+2025-01-27 01:10:00,756 - adonis_scraper - INFO - Waiting for PDF download... 19/30
+2025-01-27 01:10:00,756 - adonis_scraper - INFO - Waiting for PDF download... 19/30
+2025-01-27 01:10:01,762 - adonis_scraper - INFO - Waiting for PDF download... 20/30
+2025-01-27 01:10:01,762 - adonis_scraper - INFO - Waiting for PDF download... 20/30
+2025-01-27 01:10:02,767 - adonis_scraper - INFO - Waiting for PDF download... 21/30
+2025-01-27 01:10:02,767 - adonis_scraper - INFO - Waiting for PDF download... 21/30
+2025-01-27 01:10:03,770 - adonis_scraper - INFO - Waiting for PDF download... 22/30
+2025-01-27 01:10:03,770 - adonis_scraper - INFO - Waiting for PDF download... 22/30
+2025-01-27 01:10:04,776 - adonis_scraper - INFO - Waiting for PDF download... 23/30
+2025-01-27 01:10:04,776 - adonis_scraper - INFO - Waiting for PDF download... 23/30
+2025-01-27 01:10:05,780 - adonis_scraper - INFO - Waiting for PDF download... 24/30
+2025-01-27 01:10:05,780 - adonis_scraper - INFO - Waiting for PDF download... 24/30
+2025-01-27 01:10:06,784 - adonis_scraper - INFO - Waiting for PDF download... 25/30
+2025-01-27 01:10:06,784 - adonis_scraper - INFO - Waiting for PDF download... 25/30
+2025-01-27 01:10:07,786 - adonis_scraper - INFO - Waiting for PDF download... 26/30
+2025-01-27 01:10:07,786 - adonis_scraper - INFO - Waiting for PDF download... 26/30
+2025-01-27 01:10:08,788 - adonis_scraper - INFO - Waiting for PDF download... 27/30
+2025-01-27 01:10:08,788 - adonis_scraper - INFO - Waiting for PDF download... 27/30
+2025-01-27 01:10:09,792 - adonis_scraper - INFO - Waiting for PDF download... 28/30
+2025-01-27 01:10:09,792 - adonis_scraper - INFO - Waiting for PDF download... 28/30
+2025-01-27 01:10:10,794 - adonis_scraper - INFO - Waiting for PDF download... 29/30
+2025-01-27 01:10:10,794 - adonis_scraper - INFO - Waiting for PDF download... 29/30
+2025-01-27 01:10:11,797 - adonis_scraper - INFO - Waiting for PDF download... 30/30
+2025-01-27 01:10:11,797 - adonis_scraper - INFO - Waiting for PDF download... 30/30
+2025-01-27 01:10:11,799 - adonis_scraper - ERROR - Timeout waiting for PDF download
+2025-01-27 01:10:11,799 - adonis_scraper - ERROR - Timeout waiting for PDF download
+2025-01-27 01:10:53,988 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:10:54,431 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:10:54,431 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:10:54,515 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:10:54,515 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:11:00,045 - adonis_scraper - INFO - Looking for PDF URL in page source...
+2025-01-27 01:11:00,045 - adonis_scraper - INFO - Looking for PDF URL in page source...
+2025-01-27 01:11:00,046 - adonis_scraper - INFO - Using constructed PDF URL: https://circulaire.groupeadonis.ca/pdf/79768_21937.pdf
+2025-01-27 01:11:00,046 - adonis_scraper - INFO - Using constructed PDF URL: https://circulaire.groupeadonis.ca/pdf/79768_21937.pdf
+2025-01-27 01:11:00,046 - adonis_scraper - INFO - Downloading PDF from: https://circulaire.groupeadonis.ca/pdf/79768_21937.pdf
+2025-01-27 01:11:00,046 - adonis_scraper - INFO - Downloading PDF from: https://circulaire.groupeadonis.ca/pdf/79768_21937.pdf
+2025-01-27 01:11:00,267 - adonis_scraper - ERROR - Failed to download PDF. Status: 200, Content-Type: text/html
+2025-01-27 01:11:00,267 - adonis_scraper - ERROR - Failed to download PDF. Status: 200, Content-Type: text/html
+2025-01-27 01:38:36,330 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:38:36,751 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:38:36,751 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:38:36,828 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:38:36,828 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:38:37,081 - adonis_scraper - ERROR - Could not find PDF link in the page
+2025-01-27 01:38:37,081 - adonis_scraper - ERROR - Could not find PDF link in the page
+2025-01-27 01:47:20,763 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:47:21,248 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:47:21,248 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:47:21,333 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:47:21,333 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:47:22,924 - adonis_scraper - INFO - Found More button, clicking...
+2025-01-27 01:47:22,924 - adonis_scraper - INFO - Found More button, clicking...
+2025-01-27 01:47:23,965 - adonis_scraper - ERROR - Error downloading PDF: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x000000010534e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000105346ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104ee7f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104f32930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104f30f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000104f2ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000104f2e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000104f22dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000104f22890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000104f67148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104f20e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104f21a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001053196d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x000000010531c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010530003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x000000010531d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x00000001052f1c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000105337d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000105337edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000105346c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:47:23,965 - adonis_scraper - ERROR - Error downloading PDF: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x000000010534e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000105346ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104ee7f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104f32930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104f30f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000104f2ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000104f2e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000104f22dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000104f22890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000104f67148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104f20e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104f21a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001053196d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x000000010531c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010530003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x000000010531d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x00000001052f1c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000105337d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000105337edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000105346c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:48:42,328 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:48:42,703 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:48:42,703 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:48:42,780 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:48:42,780 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:48:46,622 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000104b867b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000104b7eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010471ff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010476a930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104768f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000104766de8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000104766258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010475adec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010475a890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x000000010479f148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104758e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104759a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000104b516d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000104b549f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000104b3803c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000104b552b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000104b29c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000104b6fd60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000104b6fedc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000104b7ec6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:48:46,622 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000104b867b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000104b7eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010471ff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010476a930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104768f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000104766de8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000104766258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010475adec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010475a890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x000000010479f148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104758e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104759a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000104b516d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000104b549f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000104b3803c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000104b552b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000104b29c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000104b6fd60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000104b6fedc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000104b7ec6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:48:47,167 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:48:47,167 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:48:47,167 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:48:47,167 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:48:49,189 - adonis_scraper - ERROR - Failed to download PDF. Status: 200, Content-Type: application/octet-stream
+2025-01-27 01:48:49,189 - adonis_scraper - ERROR - Failed to download PDF. Status: 200, Content-Type: application/octet-stream
+2025-01-27 01:49:31,415 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:49:31,832 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:49:31,832 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:49:31,903 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:49:31,903 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:49:35,512 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000100b7e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000100b76ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000100717f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100762930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100760f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x000000010075ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x000000010075e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000100752dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000100752890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000100797148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100750e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100751a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000100b496d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000100b4c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000100b3003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000100b4d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100b21c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000100b67d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000100b67edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000100b76c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:49:35,512 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000100b7e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000100b76ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000100717f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100762930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100760f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x000000010075ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x000000010075e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000100752dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000100752890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000100797148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100750e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100751a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000100b496d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000100b4c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000100b3003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000100b4d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100b21c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000100b67d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000100b67edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000100b76c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:49:36,068 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:49:36,068 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:49:36,068 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:49:36,068 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:49:38,028 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf
+2025-01-27 01:49:38,028 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf
+2025-01-27 01:50:45,069 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:50:45,525 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:50:45,525 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:50:45,600 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:50:45,600 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:50:49,241 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x00000001008767b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010086eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010040ff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010045a930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100458f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100456de8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100456258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010044adec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010044a890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x000000010048f148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100448e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100449a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001008416d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x00000001008449f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010082803c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x00000001008452b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100819c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x000000010085fd60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x000000010085fedc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x000000010086ec6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:50:49,241 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x00000001008767b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x000000010086eff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010040ff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010045a930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100458f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100456de8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100456258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010044adec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010044a890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x000000010048f148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100448e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100449a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001008416d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x00000001008449f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010082803c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x00000001008452b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100819c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x000000010085fd60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x000000010085fedc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x000000010086ec6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:50:49,799 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:50:49,799 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:50:49,799 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:50:49,799 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:50:52,072 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf
+2025-01-27 01:50:52,072 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf
+2025-01-27 01:50:52,074 - adonis_scraper - INFO - PDF has 10 pages
+2025-01-27 01:50:52,074 - adonis_scraper - INFO - PDF has 10 pages
+2025-01-27 01:50:52,075 - adonis_scraper - WARNING - No text extracted from page 1
+2025-01-27 01:50:52,075 - adonis_scraper - WARNING - No text extracted from page 1
+2025-01-27 01:50:52,075 - adonis_scraper - WARNING - No text extracted from page 2
+2025-01-27 01:50:52,075 - adonis_scraper - WARNING - No text extracted from page 2
+2025-01-27 01:50:52,075 - adonis_scraper - WARNING - No text extracted from page 3
+2025-01-27 01:50:52,075 - adonis_scraper - WARNING - No text extracted from page 3
+2025-01-27 01:50:52,076 - adonis_scraper - WARNING - No text extracted from page 4
+2025-01-27 01:50:52,076 - adonis_scraper - WARNING - No text extracted from page 4
+2025-01-27 01:50:52,076 - adonis_scraper - WARNING - No text extracted from page 5
+2025-01-27 01:50:52,076 - adonis_scraper - WARNING - No text extracted from page 5
+2025-01-27 01:50:52,076 - adonis_scraper - WARNING - No text extracted from page 6
+2025-01-27 01:50:52,076 - adonis_scraper - WARNING - No text extracted from page 6
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 7
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 7
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 8
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 8
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 9
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 9
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 10
+2025-01-27 01:50:52,077 - adonis_scraper - WARNING - No text extracted from page 10
+2025-01-27 01:50:52,078 - adonis_scraper - ERROR - No text was extracted from any page
+2025-01-27 01:50:52,078 - adonis_scraper - ERROR - No text was extracted from any page
+2025-01-27 01:52:36,041 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:52:36,473 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:52:36,473 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:52:36,549 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:52:36,549 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:52:39,797 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x000000010515a7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000105152ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104cf3f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104d3e930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104d3cf0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000104d3ade8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000104d3a258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000104d2edec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000104d2e890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000104d73148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104d2ce1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104d2da64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001051256d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x00000001051289f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010510c03c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x00000001051292b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x00000001050fdc04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000105143d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000105143edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000105152c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:52:39,797 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x000000010515a7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000105152ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104cf3f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104d3e930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104d3cf0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000104d3ade8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000104d3a258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000104d2edec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000104d2e890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000104d73148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104d2ce1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104d2da64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001051256d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x00000001051289f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010510c03c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x00000001051292b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x00000001050fdc04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000105143d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000105143edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000105152c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:52:40,358 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:52:40,358 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:52:40,358 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:52:40,358 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:52:43,237 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 01:52:43,237 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 01:52:43,239 - adonis_scraper - INFO - PDF has 10 pages
+2025-01-27 01:52:43,239 - adonis_scraper - INFO - PDF has 10 pages
+2025-01-27 01:52:43,239 - adonis_scraper - WARNING - No text extracted from page 1
+2025-01-27 01:52:43,239 - adonis_scraper - WARNING - No text extracted from page 1
+2025-01-27 01:52:43,239 - adonis_scraper - WARNING - No text extracted from page 2
+2025-01-27 01:52:43,239 - adonis_scraper - WARNING - No text extracted from page 2
+2025-01-27 01:52:43,239 - adonis_scraper - WARNING - No text extracted from page 3
+2025-01-27 01:52:43,239 - adonis_scraper - WARNING - No text extracted from page 3
+2025-01-27 01:52:43,240 - adonis_scraper - WARNING - No text extracted from page 4
+2025-01-27 01:52:43,240 - adonis_scraper - WARNING - No text extracted from page 4
+2025-01-27 01:52:43,240 - adonis_scraper - WARNING - No text extracted from page 5
+2025-01-27 01:52:43,240 - adonis_scraper - WARNING - No text extracted from page 5
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 6
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 6
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 7
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 7
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 8
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 8
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 9
+2025-01-27 01:52:43,241 - adonis_scraper - WARNING - No text extracted from page 9
+2025-01-27 01:52:43,242 - adonis_scraper - WARNING - No text extracted from page 10
+2025-01-27 01:52:43,242 - adonis_scraper - WARNING - No text extracted from page 10
+2025-01-27 01:52:43,242 - adonis_scraper - ERROR - No text was extracted from any page
+2025-01-27 01:52:43,242 - adonis_scraper - ERROR - No text was extracted from any page
+2025-01-27 01:57:41,396 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:57:41,843 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:57:41,843 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:57:41,915 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:57:41,915 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:57:45,578 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x000000010139e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000101396ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000100f37f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100f82930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100f80f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100f7ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100f7e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000100f72dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000100f72890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000100fb7148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100f70e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100f71a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001013696d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x000000010136c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010135003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x000000010136d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000101341c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000101387d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000101387edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000101396c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:57:45,578 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x000000010139e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000101396ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000100f37f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100f82930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100f80f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100f7ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100f7e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000100f72dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000100f72890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000100fb7148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100f70e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100f71a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001013696d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x000000010136c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010135003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x000000010136d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000101341c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000101387d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000101387edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000101396c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:57:46,128 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:57:46,128 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:57:46,129 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:57:46,129 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:57:48,082 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 01:57:48,082 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 01:57:48,084 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 01:57:48,084 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 01:58:26,851 - adonis_scraper - ERROR - Error extracting text from PDF: Image size (574560000 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.
+2025-01-27 01:58:26,851 - adonis_scraper - ERROR - Error extracting text from PDF: Image size (574560000 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.
+2025-01-27 01:59:20,763 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:59:21,153 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:59:21,153 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 01:59:21,226 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:59:21,226 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 01:59:24,785 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000104a4e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000104a46ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001045e7f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104632930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104630f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x000000010462ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x000000010462e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000104622dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000104622890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000104667148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104620e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104621a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000104a196d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000104a1c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000104a0003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000104a1d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x00000001049f1c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000104a37d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000104a37edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000104a46c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:59:24,785 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000104a4e7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000104a46ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x00000001045e7f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104632930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000104630f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x000000010462ede8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x000000010462e258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000104622dec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000104622890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000104667148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000104620e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000104621a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000104a196d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000104a1c9f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000104a0003c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000104a1d2b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x00000001049f1c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000104a37d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000104a37edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000104a46c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 01:59:25,329 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:59:25,329 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:59:25,329 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:59:25,329 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 01:59:28,073 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 01:59:28,073 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 01:59:28,075 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 01:59:28,075 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:02:42,298 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:02:42,648 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:02:42,648 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:02:42,724 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:02:42,724 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:02:46,584 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x00000001007b67b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x00000001007aeff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010034ff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010039a930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100398f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100396de8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100396258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010038adec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010038a890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x00000001003cf148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100388e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100389a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001007816d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x00000001007849f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010076803c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x00000001007852b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100759c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x000000010079fd60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x000000010079fedc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x00000001007aec6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 02:02:46,584 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x00000001007b67b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x00000001007aeff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x000000010034ff0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x000000010039a930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100398f0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100396de8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100396258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010038adec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010038a890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x00000001003cf148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100388e1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100389a64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x00000001007816d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x00000001007849f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x000000010076803c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x00000001007852b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100759c04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x000000010079fd60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x000000010079fedc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x00000001007aec6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 02:02:47,130 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:02:47,130 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:02:47,131 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:02:47,131 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:02:49,550 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:02:49,550 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:02:49,550 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:02:49,550 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:03:38,001 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:03:38,001 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:03:38,002 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:03:38,002 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:03:40,958 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:03:40,958 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:03:46,752 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:03:46,752 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:03:46,753 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:03:46,753 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:03:46,786 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:03:46,786 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:04:33,388 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:04:33,388 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:04:33,388 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:04:33,388 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:04:36,216 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:04:36,216 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:04:40,365 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:04:40,365 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:04:40,367 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:04:40,367 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:11:07,080 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:11:07,476 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:11:07,476 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:11:07,550 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:11:07,550 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:11:11,242 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000104aca7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000104ac2ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104663f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001046ae930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x00000001046acf0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x00000001046aade8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x00000001046aa258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010469edec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010469e890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x00000001046e3148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x000000010469ce1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x000000010469da64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000104a956d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000104a989f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000104a7c03c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000104a992b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000104a6dc04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000104ab3d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000104ab3edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000104ac2c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 02:11:11,242 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000104aca7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000104ac2ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000104663f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001046ae930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x00000001046acf0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x00000001046aade8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x00000001046aa258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x000000010469edec cxxbridge1$string$len + 329636
+8   chromedriver                        0x000000010469e890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x00000001046e3148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x000000010469ce1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x000000010469da64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000104a956d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000104a989f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000104a7c03c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000104a992b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000104a6dc04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000104ab3d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000104ab3edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000104ac2c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 02:11:11,808 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:11:11,808 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:11:11,808 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:11:11,808 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:11:14,736 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:11:14,736 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:11:14,737 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:11:14,737 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:12:02,283 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:12:02,283 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:12:02,284 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:12:02,284 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:12:05,847 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:12:05,847 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:12:10,375 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:12:10,375 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:12:10,377 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:12:10,377 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:12:10,407 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:12:10,407 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:12:57,478 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:12:57,478 - adonis_scraper - INFO - Successfully converted first page to image
+2025-01-27 02:12:57,478 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:12:57,478 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:13:00,316 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:13:00,316 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:13:04,811 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:13:04,811 - adonis_scraper - INFO - Successfully extracted text from page 1
+2025-01-27 02:13:04,814 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:13:04,814 - adonis_scraper - INFO - Successfully extracted text from PDF (707 characters)
+2025-01-27 02:13:04,845 - adonis_scraper - INFO - Raw text saved to: /Users/salah/Desktop/EconoMarket/python/output/flyer_79768_raw.txt
+2025-01-27 02:13:04,845 - adonis_scraper - INFO - Raw text saved to: /Users/salah/Desktop/EconoMarket/python/output/flyer_79768_raw.txt
+2025-01-27 02:14:24,854 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:14:25,263 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:14:25,263 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:14:25,340 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:14:25,340 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:14:28,923 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000100f6a7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000100f62ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000100b03f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100b4e930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100b4cf0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100b4ade8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100b4a258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000100b3edec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000100b3e890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000100b83148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100b3ce1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100b3da64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000100f356d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000100f389f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000100f1c03c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000100f392b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100f0dc04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000100f53d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000100f53edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000100f62c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 02:14:28,923 - adonis_scraper - WARNING - Normal click failed: Message: element click intercepted: Element <button class="btn">...</button> is not clickable at point (1153, 32). Other element would receive the click: <div data-v-06832c43="" class="ais-InstantSearch" id="ais">...</div>
+  (Session info: chrome=132.0.6834.110)
+Stacktrace:
+0   chromedriver                        0x0000000100f6a7b8 cxxbridge1$str$ptr + 2598452
+1   chromedriver                        0x0000000100f62ff8 cxxbridge1$str$ptr + 2567796
+2   chromedriver                        0x0000000100b03f0c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000100b4e930 cxxbridge1$string$len + 393960
+4   chromedriver                        0x0000000100b4cf0c cxxbridge1$string$len + 387268
+5   chromedriver                        0x0000000100b4ade8 cxxbridge1$string$len + 378784
+6   chromedriver                        0x0000000100b4a258 cxxbridge1$string$len + 375824
+7   chromedriver                        0x0000000100b3edec cxxbridge1$string$len + 329636
+8   chromedriver                        0x0000000100b3e890 cxxbridge1$string$len + 328264
+9   chromedriver                        0x0000000100b83148 cxxbridge1$string$len + 609024
+10  chromedriver                        0x0000000100b3ce1c cxxbridge1$string$len + 321492
+11  chromedriver                        0x0000000100b3da64 cxxbridge1$string$len + 324636
+12  chromedriver                        0x0000000100f356d4 cxxbridge1$str$ptr + 2381136
+13  chromedriver                        0x0000000100f389f4 cxxbridge1$str$ptr + 2394224
+14  chromedriver                        0x0000000100f1c03c cxxbridge1$str$ptr + 2277048
+15  chromedriver                        0x0000000100f392b4 cxxbridge1$str$ptr + 2396464
+16  chromedriver                        0x0000000100f0dc04 cxxbridge1$str$ptr + 2218624
+17  chromedriver                        0x0000000100f53d60 cxxbridge1$str$ptr + 2505692
+18  chromedriver                        0x0000000100f53edc cxxbridge1$str$ptr + 2506072
+19  chromedriver                        0x0000000100f62c6c cxxbridge1$str$ptr + 2566888
+20  libsystem_pthread.dylib             0x00000001818272e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001818220fc thread_start + 8
+
+2025-01-27 02:14:29,481 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:14:29,481 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:14:29,481 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:14:29,481 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:14:31,884 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:14:31,884 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:14:31,884 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:14:31,884 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:23:47,741 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:23:48,129 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:23:48,129 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:23:48,203 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:23:48,203 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:23:51,784 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 02:23:51,784 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 02:23:52,314 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:23:52,314 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:23:52,315 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:23:52,315 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:23:53,830 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:23:53,830 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:23:53,831 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:23:53,831 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:34:17,854 - adonis_scraper - INFO - Successfully converted 10 pages to images
+2025-01-27 02:34:17,854 - adonis_scraper - INFO - Successfully converted 10 pages to images
+2025-01-27 02:34:17,854 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:34:17,854 - adonis_scraper - INFO - Processing page 1 with OCR...
+2025-01-27 02:34:20,680 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:20,680 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:24,902 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 1
+2025-01-27 02:34:24,902 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 1
+2025-01-27 02:34:24,906 - adonis_scraper - INFO - Processing page 2 with OCR...
+2025-01-27 02:34:24,906 - adonis_scraper - INFO - Processing page 2 with OCR...
+2025-01-27 02:34:28,433 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:28,433 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:34,939 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 2
+2025-01-27 02:34:34,939 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 2
+2025-01-27 02:34:34,950 - adonis_scraper - INFO - Processing page 3 with OCR...
+2025-01-27 02:34:34,950 - adonis_scraper - INFO - Processing page 3 with OCR...
+2025-01-27 02:34:36,504 - adonis_scraper - INFO - Resized image from 7600x8400 to 6015x6649
+2025-01-27 02:34:36,504 - adonis_scraper - INFO - Resized image from 7600x8400 to 6015x6649
+2025-01-27 02:34:41,185 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 3
+2025-01-27 02:34:41,185 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 3
+2025-01-27 02:34:41,191 - adonis_scraper - INFO - Processing page 4 with OCR...
+2025-01-27 02:34:41,191 - adonis_scraper - INFO - Processing page 4 with OCR...
+2025-01-27 02:34:45,064 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:45,064 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:50,626 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 4
+2025-01-27 02:34:50,626 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 4
+2025-01-27 02:34:50,637 - adonis_scraper - INFO - Processing page 5 with OCR...
+2025-01-27 02:34:50,637 - adonis_scraper - INFO - Processing page 5 with OCR...
+2025-01-27 02:34:53,542 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:53,542 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:34:59,098 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 5
+2025-01-27 02:34:59,098 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 5
+2025-01-27 02:34:59,107 - adonis_scraper - INFO - Processing page 6 with OCR...
+2025-01-27 02:34:59,107 - adonis_scraper - INFO - Processing page 6 with OCR...
+2025-01-27 02:35:01,998 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:01,998 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:07,644 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 6
+2025-01-27 02:35:07,644 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 6
+2025-01-27 02:35:07,652 - adonis_scraper - INFO - Processing page 7 with OCR...
+2025-01-27 02:35:07,652 - adonis_scraper - INFO - Processing page 7 with OCR...
+2025-01-27 02:35:10,774 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:10,774 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:17,229 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 7
+2025-01-27 02:35:17,229 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 7
+2025-01-27 02:35:17,238 - adonis_scraper - INFO - Processing page 8 with OCR...
+2025-01-27 02:35:17,238 - adonis_scraper - INFO - Processing page 8 with OCR...
+2025-01-27 02:35:20,280 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:20,280 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:26,536 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 8
+2025-01-27 02:35:26,536 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 8
+2025-01-27 02:35:26,543 - adonis_scraper - INFO - Processing page 9 with OCR...
+2025-01-27 02:35:26,543 - adonis_scraper - INFO - Processing page 9 with OCR...
+2025-01-27 02:35:29,652 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:29,652 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:37,127 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 9
+2025-01-27 02:35:37,127 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 9
+2025-01-27 02:35:37,135 - adonis_scraper - INFO - Processing page 10 with OCR...
+2025-01-27 02:35:37,135 - adonis_scraper - INFO - Processing page 10 with OCR...
+2025-01-27 02:35:40,226 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:40,226 - adonis_scraper - INFO - Resized image from 7600x16800 to 4253x9403
+2025-01-27 02:35:46,939 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 10
+2025-01-27 02:35:46,939 - adonis_scraper - INFO - Successfully extracted and cleaned text from page 10
+2025-01-27 02:35:46,971 - adonis_scraper - INFO - Successfully extracted text from PDF (18424 characters)
+2025-01-27 02:35:46,971 - adonis_scraper - INFO - Successfully extracted text from PDF (18424 characters)
+2025-01-27 02:35:47,235 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:35:47,235 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:53:56,720 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:54:43,099 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:54:43,565 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:54:43,565 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 02:54:43,641 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:54:43,641 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 02:54:47,276 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 02:54:47,276 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 02:54:47,807 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:54:47,807 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:54:47,807 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:54:47,807 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 02:54:49,756 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:54:49,756 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 02:54:49,756 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 02:54:49,756 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:06:29,739 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:06:30,327 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:06:30,327 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:06:30,403 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:06:30,403 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:06:34,241 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:06:34,241 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:06:34,776 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:06:34,776 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:06:34,776 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:06:34,776 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:06:36,581 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:06:36,581 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:06:36,581 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:06:36,581 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:06:36,590 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:06:36,590 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:06:45,438 - adonis_scraper - ERROR - Error extracting text from PDF: 403 Permission denied on resource project economarket-412802. [reason: "CONSUMER_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "documentai.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "economarket-412802"
+}
+metadata {
+  key: "consumer"
+  value: "projects/economarket-412802"
+}
+, locale: "en-US"
+message: "Permission denied on resource project economarket-412802."
+, links {
+  description: "Google developers console"
+  url: "https://console.developers.google.com"
+}
+]
+2025-01-27 03:06:45,438 - adonis_scraper - ERROR - Error extracting text from PDF: 403 Permission denied on resource project economarket-412802. [reason: "CONSUMER_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "documentai.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "economarket-412802"
+}
+metadata {
+  key: "consumer"
+  value: "projects/economarket-412802"
+}
+, locale: "en-US"
+message: "Permission denied on resource project economarket-412802."
+, links {
+  description: "Google developers console"
+  url: "https://console.developers.google.com"
+}
+]
+2025-01-27 03:09:15,917 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:09:16,416 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:09:16,416 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:09:16,500 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:09:16,500 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:09:19,827 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:09:19,827 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:09:20,370 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:20,370 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:20,370 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:20,370 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:22,464 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:09:22,464 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:09:22,464 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:09:22,464 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:09:53,622 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:09:54,005 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:09:54,005 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:09:54,079 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:09:54,079 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:09:57,278 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:09:57,278 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:09:57,811 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:57,811 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:57,811 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:57,811 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:09:59,422 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:09:59,422 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:09:59,423 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:09:59,423 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:10:54,276 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:10:54,689 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:10:54,689 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:10:54,761 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:10:54,761 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:10:58,325 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:10:58,325 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:10:58,858 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:10:58,858 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:10:58,858 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:10:58,858 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:11:00,584 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:11:00,584 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:11:00,584 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:11:00,584 - adonis_scraper - INFO - Converting PDF to images...
+2025-01-27 03:13:00,423 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:13:00,825 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:13:00,825 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:13:00,898 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:13:00,898 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:13:04,593 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:13:04,593 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:13:05,133 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:05,133 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:05,133 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:05,133 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:07,386 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:13:07,386 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:13:07,386 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:13:07,386 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:13:07,397 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:13:07,397 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:13:15,473 - adonis_scraper - ERROR - Error extracting text from PDF: 403 Permission denied on resource project economarket-412802. [reason: "CONSUMER_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "documentai.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "economarket-412802"
+}
+metadata {
+  key: "consumer"
+  value: "projects/economarket-412802"
+}
+, locale: "en-US"
+message: "Permission denied on resource project economarket-412802."
+, links {
+  description: "Google developers console"
+  url: "https://console.developers.google.com"
+}
+]
+2025-01-27 03:13:15,473 - adonis_scraper - ERROR - Error extracting text from PDF: 403 Permission denied on resource project economarket-412802. [reason: "CONSUMER_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "documentai.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "economarket-412802"
+}
+metadata {
+  key: "consumer"
+  value: "projects/economarket-412802"
+}
+, locale: "en-US"
+message: "Permission denied on resource project economarket-412802."
+, links {
+  description: "Google developers console"
+  url: "https://console.developers.google.com"
+}
+]
+2025-01-27 03:13:55,189 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:13:55,667 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:13:55,667 - adonis_scraper - INFO - Chrome WebDriver initialized successfully
+2025-01-27 03:13:55,745 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:13:55,745 - adonis_scraper - INFO - Accessing flyer URL: https://circulaire.groupeadonis.ca/flyer/79768?storeId=21937&language=en
+2025-01-27 03:13:59,357 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:13:59,357 - adonis_scraper - INFO - Successfully clicked More button
+2025-01-27 03:13:59,891 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:59,891 - adonis_scraper - INFO - Found PDF URL: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:59,892 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:13:59,892 - adonis_scraper - INFO - Downloading PDF from: https://metrocommonapi.blob.core.windows.net/79768/pdfs/Adonis%20Weekly%20Flyer%200%20Valid%2023-01-25%20-%2029-01-25.pdf?version=0be596a3
+2025-01-27 03:14:03,201 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:14:03,201 - adonis_scraper - INFO - PDF downloaded successfully: /Users/salah/Desktop/EconoMarket/python/downloads/flyer_79768.pdf (8560500 bytes)
+2025-01-27 03:14:03,202 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:14:03,202 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:14:03,224 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:14:03,224 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:14:17,763 - adonis_scraper - INFO - Successfully extracted text from PDF (25709 characters)
+2025-01-27 03:14:17,763 - adonis_scraper - INFO - Successfully extracted text from PDF (25709 characters)
+2025-01-27 03:14:17,774 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:14:17,774 - adonis_scraper - INFO - Reading PDF file...
+2025-01-27 03:14:17,787 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:14:17,787 - adonis_scraper - INFO - Processing PDF with Document AI...
+2025-01-27 03:14:30,810 - adonis_scraper - INFO - Successfully extracted text from PDF (25709 characters)
+2025-01-27 03:14:30,810 - adonis_scraper - INFO - Successfully extracted text from PDF (25709 characters)
+2025-01-27 03:14:30,813 - adonis_scraper - INFO - Raw text saved to: /Users/salah/Desktop/EconoMarket/python/output/flyer_79768_raw.txt
+2025-01-27 03:14:30,813 - adonis_scraper - INFO - Raw text saved to: /Users/salah/Desktop/EconoMarket/python/output/flyer_79768_raw.txt

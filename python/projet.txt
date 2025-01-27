@@ -1,0 +1,27 @@
+Economarket est une application web innovante conçue pour aider les consommateurs québécois à économiser sur leurs achats quotidiens. Le projet permet de comparer facilement les prix des produits entre différents détaillants majeurs, notamment IGA, MAXI et Pharmaprix.
+
+Caractéristiques principales :
+- Comparaison en temps réel des prix entre différents magasins
+- Interface utilisateur intuitive et conviviale
+- Base de données régulièrement mise à jour
+- Visualisation claire des meilleures offres
+
+Architecture technique :
+- Frontend : HTML, CSS et JavaScript pour une expérience utilisateur fluide
+- Backend : Python pour le traitement et l'analyse des données
+- Stockage : Données structurées en format JSON pour chaque magasin
+
+Fonctionnalités clés :
+1. Recherche de produits simplifiée
+2. Comparaison instantanée des prix
+3. Historique des prix
+4. Filtrage par magasin et catégorie
+5. Mise à jour automatique des données
+
+Avantages pour les utilisateurs :
+- Économies de temps et d'argent
+- Prise de décision d'achat éclairée
+- Accès facile aux meilleures offres
+- Vision claire des variations de prix
+
+Le projet est en développement continu avec des mises à jour régulières pour améliorer l'expérience utilisateur et la précision des données. 

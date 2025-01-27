@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+env/
+.env/
+.venv/
+
+ENV/
+
+.env
+
+# Google Cloud credentials
+*google-cloud-vision.json
+
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
