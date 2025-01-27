@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>EconoMarket</title>
+
+    <!-- Primary Meta Tags -->
+    <title>EconoMarket - Comparateur de Prix Alimentaires en Temps Réel</title>
+    <meta name="title" content="EconoMarket - Comparateur de Prix Alimentaires en Temps Réel">
+    <meta name="description"
+        content="Comparez les prix des produits alimentaires entre les grandes surfaces françaises. Trouvez les meilleures offres et économisez sur vos courses quotidiennes !">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://EconoMarket.ca/">
+    <meta property="og:title" content="EconoMarket - Comparateur de Prix Alimentaires Intelligent">
+    <meta property="og:description"
+        content="Notre plateforme compare en temps réel les prix des produits alimentaires dans vos supermarchés préférés. Économisez jusqu'à 30% sur votre panier !">
+    <meta property="og:image" content="https://economarket.ca/images/EconoMarket.jpg">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://EconoMarket.ca/">
+    <meta property="twitter:title" content="EconoMarket - Comparateur de Prix Alimentaires en Temps Réel">
+    <meta property="twitter:description"
+        content="Comparez instantanément les prix des produits alimentaires entre les principales enseignes françaises. Faites des économies intelligentes !">
+    <meta property="twitter:image" content="https://economarket.ca/images/EconoMarket.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/EconoMarket.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/EconoMarket.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://economarket.ca/">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>EconoMarket</h1>
@@ -17,8 +50,7 @@
             <!-- Filtre par nom -->
             <div>
                 <label for="nameFilter">Rechercher par nom</label>
-                <input type="text" id="nameFilter" onkeyup="applyFilters()" 
-                       placeholder="Entrez le nom du produit...">
+                <input type="text" id="nameFilter" onkeyup="applyFilters()" placeholder="Entrez le nom du produit...">
             </div>
 
             <!-- Filtre par catégorie -->
@@ -33,11 +65,9 @@
             <div class="price-filter">
                 <label>Fourchette de prix</label>
                 <div class="price-inputs">
-                    <input type="number" id="minPriceInput" 
-                           placeholder="Minimum" min="0" step="0.01">
+                    <input type="number" id="minPriceInput" placeholder="Minimum" min="0" step="0.01">
                     <span>à</span>
-                    <input type="number" id="maxPriceInput" 
-                           placeholder="Maximum" min="0" step="0.01">
+                    <input type="number" id="maxPriceInput" placeholder="Maximum" min="0" step="0.01">
                 </div>
             </div>
 
@@ -85,10 +115,11 @@
             document.getElementById('minPriceInput').value = '';
             document.getElementById('maxPriceInput').value = '';
             document.getElementById('sortSelect').selectedIndex = 0;
-            
+
             // Réappliquer les filtres
             applyFilters();
         }
     </script>
 </body>
+
 </html>
