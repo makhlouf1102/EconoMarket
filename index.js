@@ -10,7 +10,7 @@ window.onload = async function () {
 
         // Initialize price inputs
         const prices = allProducts
-            .map(p => parseFloat(p.price_text || 0))
+            .map(p => parseFloat(p.current_price || 0))
             .filter(price => !isNaN(price));
         
         const maxProductPrice = prices.length ? Math.ceil(Math.max(...prices)) : 100;
@@ -21,7 +21,6 @@ window.onload = async function () {
         document.getElementById('minPriceInput').addEventListener('input', applyFilters);
         document.getElementById('maxPriceInput').addEventListener('input', applyFilters);
 
-        populateCategoryFilter();
         populateBrandFilter();
         displayProducts(allProducts);
 
@@ -30,31 +29,15 @@ window.onload = async function () {
     }
 };
 
-function populateCategoryFilter() {
-    const categorySet = new Set();
-    allProducts.forEach(prod => {
-        if (Array.isArray(prod.categories)) {
-            prod.categories.forEach(cat => categorySet.add(cat));
-        }
-    });
-    const categoryFilter = document.getElementById('categoryFilter');
-    while (categoryFilter.options.length > 1) categoryFilter.remove(1);
-    
-    [...categorySet].sort((a, b) => a.localeCompare(b)).forEach(category => {
-        const option = new Option(category, category);
-        categoryFilter.add(option);
-    });
-}
-
 function populateBrandFilter() {
-    const brandSet = new Set();
-    allProducts.forEach(prod => brandSet.add(prod.brand));
+    const brandSet = new Set(allProducts.map(prod => prod.brand).filter(Boolean));
     const brandFilter = document.getElementById('brandFilter');
-    while (brandFilter.options.length > 1) brandFilter.remove(1);
+    
+    // Reset filter options
+    brandFilter.innerHTML = '<option value="">Toutes les marques</option>';
     
     [...brandSet].sort((a, b) => a.localeCompare(b)).forEach(brand => {
-        const option = new Option(brand, brand);
-        brandFilter.add(option);
+        brandFilter.add(new Option(brand, brand));
     });
 }
 
@@ -70,7 +53,7 @@ function displayProducts(productArray) {
         const imgDiv = document.createElement("div");
         imgDiv.className = "product-image";
         const img = new Image();
-        img.src = product.images?.[0] || product.image_url || "placeholder.jpg";
+        img.src = product.image_url || "placeholder.jpg";
         img.alt = product.name;
         imgDiv.appendChild(img);
 
@@ -87,7 +70,11 @@ function displayProducts(productArray) {
         storeDiv.className = "store-container";
         const storeLogo = new Image();
         storeLogo.className = "store-logo";
-        const storeName = product.store?.replace(/\s+/g, '_') || 'default-store';
+        const storeName = (product.store || 'default-store').replace(/\s+/g, '_');
+        // RELPLACE WHITESPACE WITH UNDERSCORES
+        if (storeName === 'SUPER C') {
+            storeName = 'SUPER_C';
+        }
         storeLogo.src = `images/${storeName}.png`;
         storeLogo.alt = `${product.store || 'Unknown'} logo`;
         
@@ -100,17 +87,23 @@ function displayProducts(productArray) {
         // Product Details
         const detailsDiv = document.createElement("div");
         detailsDiv.className = "product-details";
-        const categories = Array.isArray(product.categories) 
-            ? product.categories.join(", ") 
-            : "N/A";
-        detailsDiv.innerHTML = `Category: ${categories}<br>Valid: ${product.valid_from || "N/A"} - ${product.valid_to || "N/A"}`;
+        detailsDiv.innerHTML = `
+            ${product.validity ? `Validité: ${product.validity}` : ''}<br>
+            ${product.price_per_item ? `Prix unitaire: ${product.price_per_item}` : ''}
+        `;
 
         // Price Display
         const priceDiv = document.createElement("div");
         priceDiv.className = "product-price";
-        priceDiv.textContent = product.price_text 
-            ? `$${parseFloat(product.price_text).toFixed(2)}`
-            : "$--";
+        
+        const currentPrice = parseFloat(product.current_price);
+        const previousPrice = parseFloat(product.previous_price);
+        const hasDiscount = previousPrice > currentPrice;
+
+        priceDiv.innerHTML = `
+            ${hasDiscount ? `<span class="old-price">${previousPrice.toFixed(2)}$</span>` : ''}
+            <span class="${hasDiscount ? 'discount-price' : ''}">${currentPrice.toFixed(2)}$</span>
+        `;
 
         // Assemble elements
         infoDiv.append(nameDiv, storeDiv, detailsDiv);
@@ -121,19 +114,18 @@ function displayProducts(productArray) {
 
 function sortProducts(products, sortBy) {
     return [...products].sort((a, b) => {
+        const priceA = parseFloat(a.current_price);
+        const priceB = parseFloat(b.current_price);
+        
         switch(sortBy) {
             case 'price_asc':
-                return (parseFloat(a.price_text) || 0) - (parseFloat(b.price_text) || 0);
+                return priceA - priceB;
             case 'price_desc':
-                return (parseFloat(b.price_text) || 0) - (parseFloat(a.price_text) || 0);
+                return priceB - priceA;
             case 'name_asc':
                 return a.name.localeCompare(b.name);
             case 'name_desc':
                 return b.name.localeCompare(a.name);
-            case 'valid_asc':
-                return new Date(a.valid_from) - new Date(b.valid_from);
-            case 'valid_desc':
-                return new Date(b.valid_from) - new Date(a.valid_from);
             default:
                 return 0;
         }
@@ -151,7 +143,6 @@ window.applyFilters = async function applyFilters() {
         const minPrice = parseFloat(document.getElementById('minPriceInput').value) || 0;
         const maxPrice = parseFloat(document.getElementById('maxPriceInput').value) || Infinity;
         const nameValue = document.getElementById('nameFilter').value.trim().toLowerCase();
-        const categoryValue = document.getElementById('categoryFilter').value;
         const brandValue = document.getElementById('brandFilter').value;
         const sortBy = document.getElementById('sortSelect').value;
 
@@ -159,11 +150,8 @@ window.applyFilters = async function applyFilters() {
             // Name filter
             if (nameValue && !product.name?.toLowerCase().includes(nameValue)) return false;
             
-            // Category filter
-            if (categoryValue && !product.categories?.includes(categoryValue)) return false;
-            
             // Price filter
-            const price = parseFloat(product.price_text || 0);
+            const price = parseFloat(product.current_price || 0);
             if (isNaN(price) || price < minPrice || price > maxPrice) return false;
             
             // Brand filter
@@ -173,9 +161,7 @@ window.applyFilters = async function applyFilters() {
         });
 
         // Apply sorting
-        if (sortBy !== 'default') {
-            filtered = sortProducts(filtered, sortBy);
-        }
+        filtered = sortProducts(filtered, sortBy);
 
         displayProducts(filtered);
 

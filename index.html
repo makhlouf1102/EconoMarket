@@ -53,14 +53,6 @@
                 <input type="text" id="nameFilter" onkeyup="applyFilters()" placeholder="Entrez le nom du produit...">
             </div>
 
-            <!-- Filtre par catégorie -->
-            <div>
-                <label for="categoryFilter">Catégories</label>
-                <select id="categoryFilter" onchange="applyFilters()">
-                    <option value="">Toutes les catégories</option>
-                </select>
-            </div>
-
             <!-- Filtre par prix -->
             <div class="price-filter">
                 <label>Fourchette de prix</label>
@@ -96,8 +88,6 @@
                 <option value="price_desc">Prix : Décroissant</option>
                 <option value="name_asc">Nom : A-Z</option>
                 <option value="name_desc">Nom : Z-A</option>
-                <option value="valid_asc">Date de validité : Plus ancienne</option>
-                <option value="valid_desc">Date de validité : Plus récente</option>
             </select>
         </div>
 
@@ -110,7 +100,6 @@
         function resetFilters() {
             // Réinitialiser les champs de formulaire
             document.getElementById('nameFilter').value = '';
-            document.getElementById('categoryFilter').selectedIndex = 0;
             document.getElementById('brandFilter').selectedIndex = 0;
             document.getElementById('minPriceInput').value = '';
             document.getElementById('maxPriceInput').value = '';
@@ -120,34 +109,27 @@
             applyFilters();
         }
     </script>
+
+    <!-- Script pour le bouton "Retour en haut" -->
     <script>
-        // Modified script with null checks
         document.addEventListener('DOMContentLoaded', () => {
             const backToTopButton = document.getElementById('backToTop');
 
             if (backToTopButton) {
-                // Show/hide button on scroll
                 window.addEventListener('scroll', () => {
-                    if (window.scrollY > 300) {
-                        backToTopButton.classList.add('show');
-                    } else {
-                        backToTopButton.classList.remove('show');
-                    }
+                    backToTopButton.classList.toggle('show', window.scrollY > 300);
                 });
 
-                // Smooth scroll to top
                 backToTopButton.addEventListener('click', () => {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: 'smooth'
-                    });
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                 });
             }
         });
     </script>
 
     <button id="backToTop" class="back-to-top" aria-label="Retour en haut de la page">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.4 122.88" fill="#fff" width="20px" height="40px">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.4 122.88" fill="#fff"
+            width="20px" height="40px">
             <title>up-arrow</title>
             <path
                 d="M24.94,67.88A14.66,14.66,0,0,1,4.38,47L47.83,4.21a14.66,14.66,0,0,1,20.56,0L111,46.15A14.66,14.66,0,0,1,90.46,67.06l-18-17.69-.29,59.17c-.1,19.28-29.42,19-29.33-.25L43.14,50,24.94,67.88Z" />

@@ -225,6 +225,37 @@ main {
     transform: translateY(-2px);
 }
 
+/* Add these styles to your existing CSS */
+
+.product-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+    min-width: 120px;
+}
+
+.old-price {
+    font-size: 0.9rem;
+    color: #de0000;
+    text-decoration: line-through;
+    font-weight: 400;
+    order: 1;
+}
+
+.discount-price {
+    color: #27ae60;
+    font-weight: 700;
+    order: 2;
+}
+
+/* Update existing product-price style */
+.product-price span:not(.old-price):not(.discount-price) {
+    font-size: 1.3rem;
+    color: #2ecc71;
+}
+
+
 @media (max-width: 768px) {
     .back-to-top {
         bottom: 20px;
@@ -232,6 +263,19 @@ main {
         width: 40px;
         height: 40px;
         font-size: 20px;
+    }
+    .product-price {
+        align-items: flex-start;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .old-price {
+        font-size: 0.85rem;
+    }
+
+    .discount-price {
+        font-size: 1.1rem;
     }
 }
 

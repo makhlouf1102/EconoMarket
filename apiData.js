@@ -6,109 +6,81 @@ export const apiData = {
   dataLoaded: false,
 
   async init() {
-    if (this.dataLoaded) {
-      return;
-    }
-
+    if (this.dataLoaded) return;
+    
     const [error, dataParsed] = await this.loadData();
-    if (error) {
-      console.error(error);
-      return;
-    }
+    if (error) return console.error(error);
 
     this.dataParsed = dataParsed;
     this.dataLoaded = true;
   },
 
   async loadData() {
-    // Load from local JSON
     const [error, data] = await catchError(fetch("./data/data.json"));
-    if (error) {
-      console.error(error);
-      return [null, new Error("Failed to load JSON data")];
-    }
+    if (error) return [error, null];
 
     const [errorJson, dataJson] = await catchError(data.json());
-    if (errorJson) {
-      console.error(errorJson);
-      return [null, new Error("Failed to parse JSON data")];
-    }
-
-    return [null, dataJson];
+    return errorJson ? [errorJson, null] : [null, dataJson];
   },
 
+  // Méthodes de filtrage mises à jour
   async filterByField(field, value) {
-    if (!this.dataLoaded) {
-      await this.init();
-    }
-    return this.dataParsed.filter((item) => {
-      return item[field] && String(item[field]).toLowerCase().includes(value.toLowerCase());
-    });
+    await this.init();
+    return this.dataParsed.filter(item => 
+      item[field]?.toLowerCase().includes(value.toLowerCase())
+    );
   },
 
   async filterByYear(year) {
-    if (!this.dataLoaded) {
-      await this.init();
-    }
-    return this.dataParsed.filter((item) => {
-      return item.valid_from && item.valid_from.startsWith(year);
+    await this.init();
+    return this.dataParsed.filter(item => {
+      const validityYear = item.validity?.split(' ').pop();
+      return validityYear === year;
     });
   },
 
-  async filterByText(text) {
-    if (!this.dataLoaded) {
-      await this.init();
-    }
-    return this.dataParsed.filter((item) => {
-      return JSON.stringify(item).toLowerCase().includes(text.toLowerCase());
+  async filterByPriceRange(min, max) {
+    await this.init();
+    return this.dataParsed.filter(item => {
+      const price = parseFloat(item.current_price);
+      return price >= min && price <= max;
     });
   },
 
+  async filterByPromotion(isPromotion) {
+    await this.init();
+    return this.dataParsed.filter(item => {
+      const prev = parseFloat(item.previous_price);
+      const curr = parseFloat(item.current_price);
+      return (prev > curr) === isPromotion;
+    });
+  },
+
+  // Méthodes conservées (champs existants dans le JSON)
   async searchByName(name) {
     return this.filterByField("name", name);
-  },
-
-  async filterByCategory(category) {
-    return this.filterByField("categories", category);
-  },
-
-  async filterByPriceRange(minPrice, maxPrice) {
-    if (!this.dataLoaded) {
-      await this.init();
-    }
-    return this.dataParsed.filter((item) => {
-      const price = parseFloat(item.price_text);
-      return !isNaN(price) && price >= minPrice && price <= maxPrice;
-    });
   },
 
   async filterByBrand(brand) {
     return this.filterByField("brand", brand);
   },
 
-  async filterByAvailability(status) {
-    return this.filterByField("status", status);
+  async filterByStoreType(store) {
+    return this.filterByField("store", store);
   },
 
-  async filterByPromotion(isPromotion) {
-    if (!this.dataLoaded) {
-      await this.init();
-    }
-    return this.dataParsed.filter((item) => {
-      return Boolean(item.promotion) === isPromotion;
-    });
+  // Méthodes désactivées (champs manquants dans le JSON)
+  /*
+  async filterByCategory() {
+    throw new Error("Non implémenté avec ce format de données");
   },
 
-  async filterByStoreType(storeType) {
-    return this.filterByField("store", storeType);
+  async filterByAvailability() {
+    throw new Error("Non implémenté avec ce format de données");
   },
 
-  async filterByNewProducts(isNew) {
-    if (!this.dataLoaded) {
-      await this.init();
-    }
-    return this.dataParsed.filter((item) => {
-      return Boolean(item.is_new_product) === isNew;
-    });
+  async filterByNewProducts() {
+    throw new Error("Non implémenté avec ce format de données");
   }
+  */
 };
