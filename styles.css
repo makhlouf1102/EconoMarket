@@ -12,17 +12,67 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
     background-color: #2ecc71;
-    color: white;
-    padding: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0;
+    flex: 1 0 100%;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex: 1 0 100%;
+    margin-top: 0.5rem;
+}
+
+.social-media span {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
 }
 
 .filters {
@@ -257,6 +307,26 @@ main {
 
 
 @media (max-width: 768px) {
+
+    header {
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .social-media span {
+        font-size: 0.9rem;
+    }
+
     .back-to-top {
         bottom: 20px;
         right: 20px;
@@ -264,6 +334,7 @@ main {
         height: 40px;
         font-size: 20px;
     }
+
     .product-price {
         align-items: flex-start;
         margin-top: 1rem;
@@ -307,6 +378,20 @@ main {
 }
 
 @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.1rem;
+    }
+
+    .social-media a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .social-media img {
+        width: 18px;
+        height: 18px;
+    }
+
     .filters {
         display: flex;
         flex-direction: column;
@@ -316,7 +401,7 @@ main {
         width: calc(100% + 1rem);
     }
 
-    .filters > div {
+    .filters>div {
         width: 100%;
         margin: 0;
         padding: 0.75rem;
@@ -348,6 +433,7 @@ main {
 
 /* Prevent zoom on input focus */
 @media screen and (max-width: 480px) {
+
     input[type="text"],
     input[type="number"],
     select {
