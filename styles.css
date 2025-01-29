@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,9 +12,10 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
     background-color: #2ecc71;
@@ -29,12 +31,7 @@ header h1 {
     text-align: center;
 }
 
-main {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
+/* Social Media */
 .social-media {
     display: flex;
     justify-content: center;
@@ -75,174 +72,14 @@ main {
     height: 20px;
 }
 
-.filters {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 1rem;
-    background: white;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-.sort-controls {
-    margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background: white;
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
     padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.sort-controls label {
-    font-weight: 600;
-    color: #2c3e50;
-}
-
-.filters label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-    color: #2c3e50;
-}
-
-.filters input[type="text"],
-.filters select,
-.sort-controls select {
-    width: 100%;
-    padding: 0.8rem;
-    border: 2px solid #e0e0e0;
-    border-radius: 6px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.filters input[type="text"]:focus,
-.filters select:focus,
-.sort-controls select:focus {
-    outline: none;
-    border-color: #2ecc71;
-}
-
-.price-filter {
-    grid-column: 1 / -1;
-}
-
-.price-inputs {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.price-inputs input {
-    flex: 1;
-    padding: 0.8rem;
-    border: 2px solid #e0e0e0;
-    border-radius: 6px;
-}
-
-.price-inputs input::-webkit-outer-spin-button,
-.price-inputs input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-.price-inputs input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.product-list {
-    list-style: none;
-    padding: 0;
-}
-
-.product-item {
-    display: flex;
-    gap: 1.5rem;
-    padding: 1.5rem;
-    background: white;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-.product-image img {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-    border-radius: 6px;
-    background: #f8f9fa;
-}
-
-.product-info {
-    flex: 1;
-}
-
-.product-name {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: #2c3e50;
-}
-
-.store-container {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.8rem;
-}
-
-.store-logo {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-}
-
-.product-store {
-    font-size: 0.9rem;
-    color: #7f8c8d;
-}
-
-.product-details {
-    color: #7f8c8d;
-    font-size: 0.95rem;
-    line-height: 1.4;
-}
-
-.product-price {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #2ecc71;
-    min-width: 120px;
-    text-align: right;
-    align-self: center;
-}
-
-.reset-filter {
-    grid-column: 1 / -1;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.reset-button {
-    padding: 0.8rem 1.5rem;
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.reset-button:hover {
-    background-color: #c0392b;
-}
-
-/* Add these styles at the end of your CSS */
+/* Back to Top Button */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -275,39 +112,8 @@ main {
     transform: translateY(-2px);
 }
 
-/* Add these styles to your existing CSS */
-
-.product-price {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.3rem;
-    min-width: 120px;
-}
-
-.old-price {
-    font-size: 0.9rem;
-    color: #de0000;
-    text-decoration: line-through;
-    font-weight: 400;
-    order: 1;
-}
-
-.discount-price {
-    color: #27ae60;
-    font-weight: 700;
-    order: 2;
-}
-
-/* Update existing product-price style */
-.product-price span:not(.old-price):not(.discount-price) {
-    font-size: 1.3rem;
-    color: #2ecc71;
-}
-
-
+/* Responsive Design */
 @media (max-width: 768px) {
-
     header {
         padding: 1rem;
         flex-direction: column;
@@ -334,47 +140,6 @@ main {
         height: 40px;
         font-size: 20px;
     }
-
-    .product-price {
-        align-items: flex-start;
-        margin-top: 1rem;
-        width: 100%;
-    }
-
-    .old-price {
-        font-size: 0.85rem;
-    }
-
-    .discount-price {
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .product-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .product-image img {
-        width: 100%;
-        height: auto;
-        max-height: 200px;
-    }
-
-    .product-price {
-        text-align: left;
-        width: 100%;
-    }
-
-    .filters {
-        grid-template-columns: 1fr;
-    }
-
-    .sort-controls {
-        flex-direction: column;
-        align-items: stretch;
-    }
 }
 
 @media (max-width: 480px) {
@@ -391,49 +156,10 @@ main {
         width: 18px;
         height: 18px;
     }
-
-    .filters {
-        display: flex;
-        flex-direction: column;
-        gap: 0.75rem;
-        padding: 0;
-        margin: 0 -0.5rem;
-        width: calc(100% + 1rem);
-    }
-
-    .filters>div {
-        width: 100%;
-        margin: 0;
-        padding: 0.75rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
-    }
-
-    .price-filter .price-inputs {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .price-inputs input {
-        width: 100%;
-    }
-
-    .reset-filter {
-        margin-top: 0.5rem;
-    }
-}
-
-@media (max-width: 360px) {
-    .filters {
-        margin: 0 -0.25rem;
-        width: calc(100% + 0.5rem);
-    }
 }
 
 /* Prevent zoom on input focus */
 @media screen and (max-width: 480px) {
-
     input[type="text"],
     input[type="number"],
     select {
